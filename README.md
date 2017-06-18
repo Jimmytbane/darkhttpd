@@ -1,2 +1,2 @@
 # darkhttpd
-A small C webserver written by Emil Mikulic <emikulic@gmail.com>
+A small C static webserver written by Emil Mikulic <emikulic@gmail.com>
