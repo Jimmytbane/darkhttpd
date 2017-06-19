@@ -5,8 +5,8 @@ I didn't make a `bin` folder because the program is light and compiled in a no t
 
 I recommend the GNU C compiler, you can also use the traditional `clang`
 
-simply create a bin folder by running these commands:
-`I'm assuming you're in the darkhttpd src directory with darkhttpd.c`
+simply create a bin folder by running these commands:<br>
+(I'm assuming you're in the darkhttpd src directory with darkhttpd.c)
 
 `cd ..`
 
