@@ -9,7 +9,7 @@ end
 
 puts "Type yes if you want to keep going"
 puts "Type no to run Ruby's abort"
-puts "requires GCC, but you can replace clang with gcc in this file and it will work :)"
+puts "requires GCC, but you can replace gcc with clang in this file and it will work :)"
 
 input = gets.chomp
 
