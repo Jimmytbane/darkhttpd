@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/jmfgdev/darkhttpd.svg?branch=master)](https://travis-ci.org/jmfgdev/darkhttpd)
 # darkhttpd
 A small C static webserver written by Emil Mikulic <emikulic@gmail.com>
 
@@ -16,7 +17,7 @@ simply create a bin folder by running these commands:<br>
 
 Follow the instructions. They tell you to:
 
-1. Go up one folder 
+1. Go up one folder
 
 2. Make a `bin` folder
 
