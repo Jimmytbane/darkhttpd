@@ -24,6 +24,8 @@ input = gets.chomp
 
 if input == "yes"
   puts "Starting install"
+  system "make darkhttpd"
+  system "sudo cp darkhttpd /usr/local/bin/darkhttpd"
     elsif input == "no"
       puts "Stopping install"
       abort
@@ -31,6 +33,3 @@ if input == "yes"
           puts "Say yes or no... Aborting."
           abort
 end
-
-system "make darkhttpd"
-system "sudo cp darkhttpd /usr/local/bin/darkhttpd"
