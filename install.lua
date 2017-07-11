@@ -20,7 +20,7 @@ input = io.read()
 if input == "yes" then
   print("Starting install")
   os.execute("cc darkhttpd.c -o darkhttpd")
-  os.execute("sudo cp darkhttpd /usr/local/bin/darkhttpd")
+  os.execute("su -c 'cp darkhttpd /usr/local/bin/darkhttpd'")
     else
       print("Stopping install")
       os.exit()
