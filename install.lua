@@ -22,6 +22,6 @@ if input == "yes" then
   os.execute("cc darkhttpd.c -o darkhttpd")
   os.execute("su -c 'cp darkhttpd /usr/local/bin/darkhttpd'")
     else
-      print("Stopping install")
+      print("Exiting")
       os.exit()
 end
