@@ -13,7 +13,6 @@
 =end
 
 trap "SIGINT" do
-  system "clear"
   abort
 end
 
@@ -26,10 +25,7 @@ if input == "yes"
   puts "Starting install"
   system "cc darkhttpd.c -o darkhttpd"
   system "su -c 'cp darkhttpd /usr/local/bin/darkhttpd'"
-    elsif input == "no"
-      puts "Stopping install"
-      abort
-        else
-          puts "Say yes or no... Aborting."
+	  else
+          puts "Aborting."
           abort
 end
