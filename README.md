@@ -1,5 +1,7 @@
-[![Build Status](https://travis-ci.org/jmfgdev/darkhttpd.svg?branch=master)](https://travis-ci.org/jmfgdev/darkhttpd)
 # darkhttpd
+
+[![Build Status](https://travis-ci.org/jmfgdev/darkhttpd.svg?branch=master)](https://travis-ci.org/jmfgdev/darkhttpd)
+
 A small C static webserver written by Emil Mikulic <emikulic@gmail.com>
 
 I didn't make a `bin` folder because the program is light and compiled in a no time on an Low-Powered Alpine Linux VM. (I compiled it because I believe it will run better if I compile it for the system it's running on.
