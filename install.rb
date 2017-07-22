@@ -9,7 +9,7 @@
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
    GNU Affero General Public License for more details.
    You should have received a copy of the GNU Affero General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 =end
 
 trap "SIGINT" do
@@ -22,10 +22,11 @@ puts "Type no if otherwise"
 input = gets.chomp
 
 if input == "yes"
-  puts "Starting install"
+  puts "Starting install..."
   system "cc darkhttpd.c -o darkhttpd"
-  system "su -c 'cp darkhttpd /usr/local/bin/darkhttpd'"
-	  else
-          puts "Aborting."
-          abort
+  puts "darkhttpd compiled"
+  system "sudo 'cp darkhttpd /usr/local/bin/darkhttpd'"
+else
+  puts "Aborting."
+  abort
 end
